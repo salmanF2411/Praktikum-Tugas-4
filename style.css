@@ -6,7 +6,7 @@
 }
 
 body {
-    line-height: 1.6;
+    line-height: 2rem;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -16,4 +16,24 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
